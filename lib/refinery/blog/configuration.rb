@@ -24,7 +24,7 @@ module Refinery
     end
     
     def self.user_class
-      @@user_class_name || Refinery::User
+      @@user_class_name || User
     end
   end
 end
